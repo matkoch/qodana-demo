@@ -2,6 +2,7 @@ namespace ClassLibrary1
 {
     public class Utility
     {
+        public int property2 { get; set; }
         public int Property { get; internal set; }
 
         public void Foo(string word)
