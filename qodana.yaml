@@ -8,6 +8,8 @@ version: "1.0"
 profile:
   name: qodana.starter
 
+failThreshold: 0
+
 #Enable inspections
 #include:
 #  - name: <SomeEnabledInspectionId>
