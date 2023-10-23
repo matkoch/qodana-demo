@@ -23,7 +23,7 @@ profile:
 
 #Install IDE plugins before Qodana execution (Applied in CI/CD pipeline)
 plugins:
-  - id: cognitivecomplexity-rider #(plugin id can be found at https://plugins.jetbrains.com)
+  - id: com.intellij.resharper.HeapAllocationsViewer #(plugin id can be found at https://plugins.jetbrains.com)
 
 #Specify Qodana linter for analysis (Applied in CI/CD pipeline)
 linter: jetbrains/qodana-dotnet:latest
